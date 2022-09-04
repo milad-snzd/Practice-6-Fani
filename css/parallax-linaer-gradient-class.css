@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 2000px;
+}
+div.photo-one {
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+  background-image: linear-gradient(
+      to right,
+      rgba(156, 138, 226, 0.2),
+      rgba(40, 44, 38, 0.9),
+      rgba(219, 154, 194, 0.5)
+    ),
+    url(../images/karton.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+div.photo-two {
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+  background-image: linear-gradient(
+      to right,
+      rgba(112, 80, 80, 0.2),
+      rgba(228, 223, 170, 0.9),
+      rgba(179, 230, 239, 0.5)
+    ),
+    url(../images/koh.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+div.photo-three {
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+  background-image: linear-gradient(
+      to right,
+      rgba(208, 139, 199, 0.2),
+      rgba(144, 167, 125, 0.9),
+      rgba(219, 154, 194, 0.5)
+    ),
+    url(../images/moon.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

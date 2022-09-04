@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 2000px;
+}
+[data-photoone] {
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+  background-image: url(../images/qalamo.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+[data-phototwo] {
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+  background-image: url(../images/sun.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+[data-photothree] {
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+  background-image: url(../images/mah.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
